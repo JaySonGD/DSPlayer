@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of DSPlayer.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/czljcb@163.com/DSPlayer",
+  "homepage": "https://github.com/JaySonGD/DSPlayer",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "czljcb@163.com": "caozhi@mhace.com"
   },
   "source": {
-    "git": "https://github.com/czljcb@163.com/DSPlayer.git",
+    "git": "https://github.com/JaySonGD/DSPlayer.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DSPlayer/Classes/**/*"
+  "source_files": "DSPlayer/Classes/**/*",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ]
+  }
 }

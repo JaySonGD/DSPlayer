@@ -1,5 +1,7 @@
 PODS:
-  - DSPlayer (0.1.0)
+  - DSPlayer (0.1.0):
+    - MBProgressHUD
+  - MBProgressHUD (1.1.0)
 
 DEPENDENCIES:
   - DSPlayer (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DSPlayer: dbdaf7ecf58e0baff5872508cae0b449068b6109
+  DSPlayer: 25a9cc860538ddfa98b31b22f2f9bc5904ce4217
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
 
 PODFILE CHECKSUM: e50c1b12c0d8dd99d5e7765b0e44d756696c3a5d
 
