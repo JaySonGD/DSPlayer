@@ -1,0 +1,16 @@
+PODS:
+  - DSPlayer (0.1.0)
+
+DEPENDENCIES:
+  - DSPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  DSPlayer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DSPlayer: dbdaf7ecf58e0baff5872508cae0b449068b6109
+
+PODFILE CHECKSUM: e50c1b12c0d8dd99d5e7765b0e44d756696c3a5d
+
+COCOAPODS: 1.4.0

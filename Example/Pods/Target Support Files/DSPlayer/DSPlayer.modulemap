@@ -1,0 +1,6 @@
+framework module DSPlayer {
+  umbrella header "DSPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

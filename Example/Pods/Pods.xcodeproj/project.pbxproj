@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1C404243D96FBA99EDC6A46C16B8AC /* UIControl+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DF27B1236665C6493F36B25A6C0DB3 /* UIControl+Block.m */; };
+		149D143F184D25A792FCFDB15140A315 /* DSCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C179D5589FE6BD670335BE135CA8CB36 /* DSCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15EB0B274EE4CB8D350B0B841192B7B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		340FBCD5862A8F46E1F1B357473661DA /* DSPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE7D65903BEC87D473F6C3A74C5323 /* DSPlayer-dummy.m */; };
+		3B042B528E1B6AA33704C158FD6A05B0 /* NSError+Message.h in Headers */ = {isa = PBXBuildFile; fileRef = 71704306FF24AF75218173C62E8C6768 /* NSError+Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4256057012DAD35C888B29B786773956 /* UIView+Loading.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A524A0A21344B1CE566B0DF0DD434D /* UIView+Loading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		535B226CAF23418C519E08B67EB7A2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		54712E92A8323C7B00725DC015664984 /* UINavigationController+FullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD19A3ACE60563454AC1D3398D72045 /* UINavigationController+FullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5855E48445D36884D1A299F803969234 /* Pods-DSPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D87661A12779F91821D957A87D8BF19E /* Pods-DSPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6895FDE8A5D110D5DD17F80AB9AC4368 /* MBProgressHUD+iShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 172C46499B6AE00E70892639D4C066D8 /* MBProgressHUD+iShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754C927D7320D2837FF12DFB69F4E8DC /* UIView+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DDB2C356FF5613DE3DFCD9E6F99110 /* UIView+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B98E27F13E6C965C051C3A3EADDBE56 /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4D541286492F54EE94E839132A4C03 /* UIView+Loading.m */; };
+		80A75BB05DB74206E9245F808802C9D8 /* UITabBar+CustomBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D73CB8C124BD897579B622304AF137A /* UITabBar+CustomBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85D7BC5C9F737E34437183F6B7B70FE6 /* NSError+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 639BEA10A6123B2F0D4F1B251B9D272D /* NSError+Message.m */; };
+		8787F2C4F2FECEB0E1E97B765C4A9D9B /* UIView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B7F2AB812777C223F57B87BF08C69A /* UIView+Block.m */; };
+		96E13264DB482D99BF9A08B2433AE4F5 /* Pods-DSPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D554D0E2C080721FB3003001277EA /* Pods-DSPlayer_Tests-dummy.m */; };
+		9E85250B84A4EC9AC6D31AFE8DE50747 /* Pods-DSPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B29C807FFC4055D4206D02055B1DF430 /* Pods-DSPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7F62CB763A29F567BBED6F1A8DD53E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B0873B060C254D73BE1318B641048FD4 /* UINavigationController+FullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0063C48653C318FF5FE03789755585 /* UINavigationController+FullscreenPopGesture.m */; };
+		BBA6869F3C9B1771905ED8DA30FE2896 /* MBProgressHUD+iShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 225218D92B00DC47B22E0A8CE1C02ED1 /* MBProgressHUD+iShare.m */; };
+		CE79605014816123F37542B53F5DA968 /* Pods-DSPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A8D96F0C47240FFB1B6C034C1DA6E4 /* Pods-DSPlayer_Example-dummy.m */; };
+		D11AF1F5D7B05C29B92161EA2324AD2C /* UIControl+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F4D91B5353D47019A721F66C177576 /* UIControl+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32B83BB18B25254A737FA8D0986BCEF /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 91055DB8C53DF703E16E7D5FBF1869BA /* UITabBar+CustomBadge.m */; };
+		DA609C1D08EA990D9F5DB8C78BFA36BE /* DSPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E53599F0F023366AA04FF88B56081661 /* DSPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E70C359B6FAB5E61726998BF13715593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CE84C8E61BD5B0D584A588DAB0C8C6E;
+			remoteInfo = DSPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D8CF277547A1A2B2F31EC3F03F5E37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A524A0A21344B1CE566B0DF0DD434D /* UIView+Loading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Loading.h"; path = "DSPlayer/Classes/UIView+Loading.h"; sourceTree = "<group>"; };
+		097C2BAA6B636D7928561AD8A17E5F2D /* Pods_DSPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		172C46499B6AE00E70892639D4C066D8 /* MBProgressHUD+iShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+iShare.h"; path = "DSPlayer/Classes/MBProgressHUD+iShare.h"; sourceTree = "<group>"; };
+		19BED3DC802ACD2B9DC4879CF1DDC73F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F4D91B5353D47019A721F66C177576 /* UIControl+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Block.h"; path = "DSPlayer/Classes/UIControl+Block.h"; sourceTree = "<group>"; };
+		1D73CB8C124BD897579B622304AF137A /* UITabBar+CustomBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+CustomBadge.h"; path = "DSPlayer/Classes/UITabBar+CustomBadge.h"; sourceTree = "<group>"; };
+		1F76BF911B60EBD61822361DC5FD2488 /* Pods-DSPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		225218D92B00DC47B22E0A8CE1C02ED1 /* MBProgressHUD+iShare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+iShare.m"; path = "DSPlayer/Classes/MBProgressHUD+iShare.m"; sourceTree = "<group>"; };
+		23A591FF93C25925BA7EDAED287BE0F2 /* DSPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DSPlayer.podspec; sourceTree = "<group>"; };
+		35C4CCA80515039D040575C1C02445DF /* Pods-DSPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BF317EEBED389D45AC2E44FC2B5E950 /* Pods-DSPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DSPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		3CF00B2CFF03ECB11578AC40DA707138 /* Pods-DSPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4A8D554D0E2C080721FB3003001277EA /* Pods-DSPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		540A42E93FD382E672948065110B9AED /* Pods-DSPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		611FEB95E84B6D0E6168814861749859 /* Pods-DSPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		639BEA10A6123B2F0D4F1B251B9D272D /* NSError+Message.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+Message.m"; path = "DSPlayer/Classes/NSError+Message.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68819B5FB24A79B79D272DC28FB808F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71704306FF24AF75218173C62E8C6768 /* NSError+Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+Message.h"; path = "DSPlayer/Classes/NSError+Message.h"; sourceTree = "<group>"; };
+		79313C98B80EFB755F3F3880F645BA7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7B4298AF1D6BEB2E3D05B1A762835449 /* Pods-DSPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BD19A3ACE60563454AC1D3398D72045 /* UINavigationController+FullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FullscreenPopGesture.h"; path = "DSPlayer/Classes/UINavigationController+FullscreenPopGesture.h"; sourceTree = "<group>"; };
+		82B7F2AB812777C223F57B87BF08C69A /* UIView+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Block.m"; path = "DSPlayer/Classes/UIView+Block.m"; sourceTree = "<group>"; };
+		82DDB2C356FF5613DE3DFCD9E6F99110 /* UIView+Block.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Block.h"; path = "DSPlayer/Classes/UIView+Block.h"; sourceTree = "<group>"; };
+		87B67B911E2F8576B8A864D97FB3B7E8 /* Pods_DSPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91055DB8C53DF703E16E7D5FBF1869BA /* UITabBar+CustomBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+CustomBadge.m"; path = "DSPlayer/Classes/UITabBar+CustomBadge.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2C3368981307166AE37535E77C03C0 /* DSPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSPlayer-prefix.pch"; sourceTree = "<group>"; };
+		A290CBE51C29375551D1F4D9A84FE1AC /* Pods-DSPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AA4456F355EDEAE3EB125A42F7F5AA3E /* Pods-DSPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA70CD75A52D7598475210D2D0C154E5 /* DSPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSPlayer.xcconfig; sourceTree = "<group>"; };
+		B29C807FFC4055D4206D02055B1DF430 /* Pods-DSPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BCEE7D65903BEC87D473F6C3A74C5323 /* DSPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSPlayer-dummy.m"; sourceTree = "<group>"; };
+		C179D5589FE6BD670335BE135CA8CB36 /* DSCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSCategory.h; path = DSPlayer/Classes/DSCategory.h; sourceTree = "<group>"; };
+		C1F6CDF56632FEB0B0E71C79A73AFACE /* Pods-DSPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C4DF27B1236665C6493F36B25A6C0DB3 /* UIControl+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Block.m"; path = "DSPlayer/Classes/UIControl+Block.m"; sourceTree = "<group>"; };
+		CC190578E91781677E9ACFC0016A4977 /* DSPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5FF85EF2CFBB0F1353C24C6B2B0482 /* Pods-DSPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DSPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		D87661A12779F91821D957A87D8BF19E /* Pods-DSPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		DDA9525A09E2C165769CEFBAA2AF79C5 /* Pods-DSPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSPlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		DE0063C48653C318FF5FE03789755585 /* UINavigationController+FullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FullscreenPopGesture.m"; path = "DSPlayer/Classes/UINavigationController+FullscreenPopGesture.m"; sourceTree = "<group>"; };
+		E0DDAD51C61F9D92159AD3B6D58177A9 /* Pods-DSPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E53599F0F023366AA04FF88B56081661 /* DSPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSPlayer-umbrella.h"; sourceTree = "<group>"; };
+		E69596F409E7642EC89592E5D6B0E91C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E9B6A62BA0DF4AF51EB9DD368ACA5F9C /* Pods-DSPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
+		F5A8D96F0C47240FFB1B6C034C1DA6E4 /* Pods-DSPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		F9321E52100532F09F67B12BA57686C2 /* DSPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DSPlayer.modulemap; sourceTree = "<group>"; };
+		FC4D541286492F54EE94E839132A4C03 /* UIView+Loading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Loading.m"; path = "DSPlayer/Classes/UIView+Loading.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221CF0411CA36A80073ADC530D293015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535B226CAF23418C519E08B67EB7A2C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0955B64F520E08ED19E385B45573D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F62CB763A29F567BBED6F1A8DD53E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A17DA41D017B26B51E8388E8E8F559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EB0B274EE4CB8D350B0B841192B7B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091721539CF6AFF6FDAB760C883EA372 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F5896DDE21BCB9BA41CBCA1F31ADCAB /* Pods-DSPlayer_Example */,
+				F5D5149D145E837A4C391892968D47A3 /* Pods-DSPlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0A8FBD76AE732B8FB8C32DB7F56F0848 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC190578E91781677E9ACFC0016A4977 /* DSPlayer.framework */,
+				097C2BAA6B636D7928561AD8A17E5F2D /* Pods_DSPlayer_Example.framework */,
+				87B67B911E2F8576B8A864D97FB3B7E8 /* Pods_DSPlayer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57DD3A80DC26751BA583BDC60A8F9554 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9321E52100532F09F67B12BA57686C2 /* DSPlayer.modulemap */,
+				AA70CD75A52D7598475210D2D0C154E5 /* DSPlayer.xcconfig */,
+				BCEE7D65903BEC87D473F6C3A74C5323 /* DSPlayer-dummy.m */,
+				9E2C3368981307166AE37535E77C03C0 /* DSPlayer-prefix.pch */,
+				E53599F0F023366AA04FF88B56081661 /* DSPlayer-umbrella.h */,
+				19BED3DC802ACD2B9DC4879CF1DDC73F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DSPlayer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BCCA8B53F6AB80586E6C7581922F8554 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0A8FBD76AE732B8FB8C32DB7F56F0848 /* Products */,
+				091721539CF6AFF6FDAB760C883EA372 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F5896DDE21BCB9BA41CBCA1F31ADCAB /* Pods-DSPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				68819B5FB24A79B79D272DC28FB808F3 /* Info.plist */,
+				CD5FF85EF2CFBB0F1353C24C6B2B0482 /* Pods-DSPlayer_Example.modulemap */,
+				7B4298AF1D6BEB2E3D05B1A762835449 /* Pods-DSPlayer_Example-acknowledgements.markdown */,
+				1F76BF911B60EBD61822361DC5FD2488 /* Pods-DSPlayer_Example-acknowledgements.plist */,
+				F5A8D96F0C47240FFB1B6C034C1DA6E4 /* Pods-DSPlayer_Example-dummy.m */,
+				E0DDAD51C61F9D92159AD3B6D58177A9 /* Pods-DSPlayer_Example-frameworks.sh */,
+				DDA9525A09E2C165769CEFBAA2AF79C5 /* Pods-DSPlayer_Example-resources.sh */,
+				D87661A12779F91821D957A87D8BF19E /* Pods-DSPlayer_Example-umbrella.h */,
+				3CF00B2CFF03ECB11578AC40DA707138 /* Pods-DSPlayer_Example.debug.xcconfig */,
+				A290CBE51C29375551D1F4D9A84FE1AC /* Pods-DSPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-DSPlayer_Example";
+			path = "Target Support Files/Pods-DSPlayer_Example";
+			sourceTree = "<group>";
+		};
+		884405C70EA5B46206E54091B8B15F20 /* DSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C179D5589FE6BD670335BE135CA8CB36 /* DSCategory.h */,
+				172C46499B6AE00E70892639D4C066D8 /* MBProgressHUD+iShare.h */,
+				225218D92B00DC47B22E0A8CE1C02ED1 /* MBProgressHUD+iShare.m */,
+				71704306FF24AF75218173C62E8C6768 /* NSError+Message.h */,
+				639BEA10A6123B2F0D4F1B251B9D272D /* NSError+Message.m */,
+				19F4D91B5353D47019A721F66C177576 /* UIControl+Block.h */,
+				C4DF27B1236665C6493F36B25A6C0DB3 /* UIControl+Block.m */,
+				7BD19A3ACE60563454AC1D3398D72045 /* UINavigationController+FullscreenPopGesture.h */,
+				DE0063C48653C318FF5FE03789755585 /* UINavigationController+FullscreenPopGesture.m */,
+				1D73CB8C124BD897579B622304AF137A /* UITabBar+CustomBadge.h */,
+				91055DB8C53DF703E16E7D5FBF1869BA /* UITabBar+CustomBadge.m */,
+				82DDB2C356FF5613DE3DFCD9E6F99110 /* UIView+Block.h */,
+				82B7F2AB812777C223F57B87BF08C69A /* UIView+Block.m */,
+				07A524A0A21344B1CE566B0DF0DD434D /* UIView+Loading.h */,
+				FC4D541286492F54EE94E839132A4C03 /* UIView+Loading.m */,
+				A3B6586C1B3B76ACA0EC81DD468DC237 /* Pod */,
+				57DD3A80DC26751BA583BDC60A8F9554 /* Support Files */,
+			);
+			name = DSPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A3B6586C1B3B76ACA0EC81DD468DC237 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				23A591FF93C25925BA7EDAED287BE0F2 /* DSPlayer.podspec */,
+				E69596F409E7642EC89592E5D6B0E91C /* LICENSE */,
+				79313C98B80EFB755F3F3880F645BA7D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCCA8B53F6AB80586E6C7581922F8554 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				884405C70EA5B46206E54091B8B15F20 /* DSPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F5D5149D145E837A4C391892968D47A3 /* Pods-DSPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				03D8CF277547A1A2B2F31EC3F03F5E37 /* Info.plist */,
+				3BF317EEBED389D45AC2E44FC2B5E950 /* Pods-DSPlayer_Tests.modulemap */,
+				AA4456F355EDEAE3EB125A42F7F5AA3E /* Pods-DSPlayer_Tests-acknowledgements.markdown */,
+				35C4CCA80515039D040575C1C02445DF /* Pods-DSPlayer_Tests-acknowledgements.plist */,
+				4A8D554D0E2C080721FB3003001277EA /* Pods-DSPlayer_Tests-dummy.m */,
+				C1F6CDF56632FEB0B0E71C79A73AFACE /* Pods-DSPlayer_Tests-frameworks.sh */,
+				E9B6A62BA0DF4AF51EB9DD368ACA5F9C /* Pods-DSPlayer_Tests-resources.sh */,
+				B29C807FFC4055D4206D02055B1DF430 /* Pods-DSPlayer_Tests-umbrella.h */,
+				611FEB95E84B6D0E6168814861749859 /* Pods-DSPlayer_Tests.debug.xcconfig */,
+				540A42E93FD382E672948065110B9AED /* Pods-DSPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-DSPlayer_Tests";
+			path = "Target Support Files/Pods-DSPlayer_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06717823B2721E9C870C15608992E034 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149D143F184D25A792FCFDB15140A315 /* DSCategory.h in Headers */,
+				DA609C1D08EA990D9F5DB8C78BFA36BE /* DSPlayer-umbrella.h in Headers */,
+				6895FDE8A5D110D5DD17F80AB9AC4368 /* MBProgressHUD+iShare.h in Headers */,
+				3B042B528E1B6AA33704C158FD6A05B0 /* NSError+Message.h in Headers */,
+				D11AF1F5D7B05C29B92161EA2324AD2C /* UIControl+Block.h in Headers */,
+				54712E92A8323C7B00725DC015664984 /* UINavigationController+FullscreenPopGesture.h in Headers */,
+				80A75BB05DB74206E9245F808802C9D8 /* UITabBar+CustomBadge.h in Headers */,
+				754C927D7320D2837FF12DFB69F4E8DC /* UIView+Block.h in Headers */,
+				4256057012DAD35C888B29B786773956 /* UIView+Loading.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5E70D7040F106266CCA3233F7EB429 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E85250B84A4EC9AC6D31AFE8DE50747 /* Pods-DSPlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5543B9CD2858E008B8714CA1B936D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5855E48445D36884D1A299F803969234 /* Pods-DSPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CE84C8E61BD5B0D584A588DAB0C8C6E /* DSPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FAF4723A62C95F8D17832BE6EFE9554 /* Build configuration list for PBXNativeTarget "DSPlayer" */;
+			buildPhases = (
+				46ED4D9A4EDF4E911CEED2B805ADB6B8 /* Sources */,
+				F2A17DA41D017B26B51E8388E8E8F559 /* Frameworks */,
+				06717823B2721E9C870C15608992E034 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSPlayer;
+			productName = DSPlayer;
+			productReference = CC190578E91781677E9ACFC0016A4977 /* DSPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E5BCD709135A6005665E1B4ECAF6CAB /* Pods-DSPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E3DB196EC335E1FAB1E9E9C5704BC0 /* Build configuration list for PBXNativeTarget "Pods-DSPlayer_Example" */;
+			buildPhases = (
+				D6C71152D89638B339574255683C6458 /* Sources */,
+				221CF0411CA36A80073ADC530D293015 /* Frameworks */,
+				AAA5543B9CD2858E008B8714CA1B936D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4498074AF43432E75AC1792A29EA835 /* PBXTargetDependency */,
+			);
+			name = "Pods-DSPlayer_Example";
+			productName = "Pods-DSPlayer_Example";
+			productReference = 097C2BAA6B636D7928561AD8A17E5F2D /* Pods_DSPlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3FC41EAF534319D66DF64F75362C83B /* Pods-DSPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA95D0393F5C182CE0718898186AB38B /* Build configuration list for PBXNativeTarget "Pods-DSPlayer_Tests" */;
+			buildPhases = (
+				D73E88308ED924338A16B724EBB984C0 /* Sources */,
+				A0955B64F520E08ED19E385B45573D32 /* Frameworks */,
+				6D5E70D7040F106266CCA3233F7EB429 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DSPlayer_Tests";
+			productName = "Pods-DSPlayer_Tests";
+			productReference = 87B67B911E2F8576B8A864D97FB3B7E8 /* Pods_DSPlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0A8FBD76AE732B8FB8C32DB7F56F0848 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CE84C8E61BD5B0D584A588DAB0C8C6E /* DSPlayer */,
+				7E5BCD709135A6005665E1B4ECAF6CAB /* Pods-DSPlayer_Example */,
+				D3FC41EAF534319D66DF64F75362C83B /* Pods-DSPlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46ED4D9A4EDF4E911CEED2B805ADB6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340FBCD5862A8F46E1F1B357473661DA /* DSPlayer-dummy.m in Sources */,
+				BBA6869F3C9B1771905ED8DA30FE2896 /* MBProgressHUD+iShare.m in Sources */,
+				85D7BC5C9F737E34437183F6B7B70FE6 /* NSError+Message.m in Sources */,
+				0F1C404243D96FBA99EDC6A46C16B8AC /* UIControl+Block.m in Sources */,
+				B0873B060C254D73BE1318B641048FD4 /* UINavigationController+FullscreenPopGesture.m in Sources */,
+				D32B83BB18B25254A737FA8D0986BCEF /* UITabBar+CustomBadge.m in Sources */,
+				8787F2C4F2FECEB0E1E97B765C4A9D9B /* UIView+Block.m in Sources */,
+				7B98E27F13E6C965C051C3A3EADDBE56 /* UIView+Loading.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C71152D89638B339574255683C6458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE79605014816123F37542B53F5DA968 /* Pods-DSPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73E88308ED924338A16B724EBB984C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E13264DB482D99BF9A08B2433AE4F5 /* Pods-DSPlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4498074AF43432E75AC1792A29EA835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DSPlayer;
+			target = 1CE84C8E61BD5B0D584A588DAB0C8C6E /* DSPlayer */;
+			targetProxy = E70C359B6FAB5E61726998BF13715593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00EE105ED5F800A896574F6A45AB313E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA70CD75A52D7598475210D2D0C154E5 /* DSPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DSPlayer/DSPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DSPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DSPlayer/DSPlayer.modulemap";
+				PRODUCT_NAME = DSPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FEAE03A8FB885F795D44B3C06678074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540A42E93FD382E672948065110B9AED /* Pods-DSPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DSPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DSPlayer_Tests/Pods-DSPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DSPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		51AFBC5E7EEF8EC3DED39F38961472F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A290CBE51C29375551D1F4D9A84FE1AC /* Pods-DSPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DSPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DSPlayer_Example/Pods-DSPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DSPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		956F82114C2F9B2DC1612C7696985201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 611FEB95E84B6D0E6168814861749859 /* Pods-DSPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DSPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DSPlayer_Tests/Pods-DSPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DSPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9650D3BDE1854FB14412F7DD9975A452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF00B2CFF03ECB11578AC40DA707138 /* Pods-DSPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DSPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DSPlayer_Example/Pods-DSPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DSPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D21FB95D99B02E0CF730215BCA2482EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA70CD75A52D7598475210D2D0C154E5 /* DSPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DSPlayer/DSPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DSPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DSPlayer/DSPlayer.modulemap";
+				PRODUCT_NAME = DSPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FAF4723A62C95F8D17832BE6EFE9554 /* Build configuration list for PBXNativeTarget "DSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EE105ED5F800A896574F6A45AB313E /* Debug */,
+				D21FB95D99B02E0CF730215BCA2482EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA95D0393F5C182CE0718898186AB38B /* Build configuration list for PBXNativeTarget "Pods-DSPlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956F82114C2F9B2DC1612C7696985201 /* Debug */,
+				2FEAE03A8FB885F795D44B3C06678074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E3DB196EC335E1FAB1E9E9C5704BC0 /* Build configuration list for PBXNativeTarget "Pods-DSPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9650D3BDE1854FB14412F7DD9975A452 /* Debug */,
+				51AFBC5E7EEF8EC3DED39F38961472F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
