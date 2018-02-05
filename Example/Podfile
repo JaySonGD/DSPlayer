@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DSPlayer_Example' do
+  pod 'DSPlayer', :path => '../'
+
+  target 'DSPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
